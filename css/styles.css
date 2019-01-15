@@ -121,12 +121,12 @@
   border-color: black;
 }
 
-/*#slide-5:focus ~ .slide-nav [href="#slide-5"],
-#slide-5:focus-within ~ .slide-nav [href="#slide-5"] {
+#slide-5:focus~.slide-nav [href="#slide-5"],
+#slide-5:focus-within~.slide-nav [href="#slide-5"] {
   border-color: black;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
