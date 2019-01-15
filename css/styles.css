@@ -111,12 +111,12 @@
   border-color: black;
 }
 
-/*#slide-3:focus ~ .slide-nav [href="#slide-3"],
-#slide-3:focus-within ~ .slide-nav [href="#slide-3"] {
+#slide-3:focus~.slide-nav [href="#slide-3"],
+#slide-3:focus-within~.slide-nav [href="#slide-3"] {
   border-color: black;
 }
 
-#slide-4:focus ~ .slide-nav [href="#slide-4"],
+/*#slide-4:focus ~ .slide-nav [href="#slide-4"],
 #slide-4:focus-within ~ .slide-nav [href="#slide-4"] {
   border-color: black;
 }
