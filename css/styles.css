@@ -53,11 +53,11 @@
   z-index: 10;
 }
 
-/*.slider:not(:focus-within) .slide:first-child ~ .slide,
-.slide:focus ~ .slide,
-.slide:focus-within ~ .slide {
+.slider:not(:focus-within) .slide:first-child~.slide,
+.slide:focus~.slide,
+.slide:focus-within~.slide {
   -webkit-transform: translateX(50%) scale(0.8);
-          transform: translateX(50%) scale(0.8);
+  transform: translateX(50%) scale(0.8);
 }
 
 /* ---------------------------------- */
