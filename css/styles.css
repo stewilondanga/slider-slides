@@ -106,12 +106,12 @@
   border-color: black;
 }
 
-/*#slide-2:focus ~ .slide-nav [href="#slide-2"],
-#slide-2:focus-within ~ .slide-nav [href="#slide-2"] {
+#slide-2:focus~.slide-nav [href="#slide-2"],
+#slide-2:focus-within~.slide-nav [href="#slide-2"] {
   border-color: black;
 }
 
-#slide-3:focus ~ .slide-nav [href="#slide-3"],
+/*#slide-3:focus ~ .slide-nav [href="#slide-3"],
 #slide-3:focus-within ~ .slide-nav [href="#slide-3"] {
   border-color: black;
 }
