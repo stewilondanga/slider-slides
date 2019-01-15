@@ -44,15 +44,16 @@
   opacity: 0;
 }
 
-/*.slider:not(:focus-within) .slide:first-child,
+.slider:not(:focus-within) .slide:first-child,
 .slide:focus,
 .slide:focus-within {
   -webkit-transform: translateX(0%) scale(1);
-          transform: translateX(0%) scale(1);
+  transform: translateX(0%) scale(1);
   opacity: 1;
   z-index: 10;
 }
-.slider:not(:focus-within) .slide:first-child ~ .slide,
+
+/*.slider:not(:focus-within) .slide:first-child ~ .slide,
 .slide:focus ~ .slide,
 .slide:focus-within ~ .slide {
   -webkit-transform: translateX(50%) scale(0.8);
