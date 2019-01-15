@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,117 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+/* ---------------------------------- */
+/* Essential Styles */
+/*.slider {
+  display: flex;
+}
+
+.slide {
+  width: 100%;
+  margin-right: -100%;
+  position: relative;
+  z-index: 1;
+}
+
+.slide:first-child {
+  z-index: 2;
+}
+
+.slide:focus,
+.slide:focus-within {
+  z-index: 10;
+}
+
+/* ---------------------------------- */
+/* Animation-based styles */
+/*.slide {
+  transition: all 0.6s cubic-bezier(0.5, 0, 0.5, 1), z-index 0.7s linear;
+  -webkit-transform: translateX(-50%) scale(0.8);
+          transform: translateX(-50%) scale(0.8);
+  opacity: 0;
+}
+
+.slider:not(:focus-within) .slide:first-child,
+.slide:focus,
+.slide:focus-within {
+  -webkit-transform: translateX(0%) scale(1);
+          transform: translateX(0%) scale(1);
+  opacity: 1;
+  z-index: 10;
+}
+.slider:not(:focus-within) .slide:first-child ~ .slide,
+.slide:focus ~ .slide,
+.slide:focus-within ~ .slide {
+  -webkit-transform: translateX(50%) scale(0.8);
+          transform: translateX(50%) scale(0.8);
+}
+
+/* ---------------------------------- */
+/* Stylistic Choices */
+/*.slide {
+  height: 60vw;
+  max-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: red;
+  background: hsl(calc(360deg * ( var(--i) / var(--total) ) ), 60%, 60%);
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.slide-nav {
+  position: absolute;
+  bottom: 0.5em;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 12;
+}
+.slide-nav a {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  background: #FFF;
+  border-radius: 50%;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 1rem;
+  border: solid 2px transparent;
+}
+
+#slide-1:focus ~ .slide-nav [href="#slide-1"],
+#slide-1:focus-within ~ .slide-nav [href="#slide-1"] {
+  border-color: black;
+}
+
+#slide-2:focus ~ .slide-nav [href="#slide-2"],
+#slide-2:focus-within ~ .slide-nav [href="#slide-2"] {
+  border-color: black;
+}
+
+#slide-3:focus ~ .slide-nav [href="#slide-3"],
+#slide-3:focus-within ~ .slide-nav [href="#slide-3"] {
+  border-color: black;
+}
+
+#slide-4:focus ~ .slide-nav [href="#slide-4"],
+#slide-4:focus-within ~ .slide-nav [href="#slide-4"] {
+  border-color: black;
+}
+
+#slide-5:focus ~ .slide-nav [href="#slide-5"],
+#slide-5:focus-within ~ .slide-nav [href="#slide-5"] {
+  border-color: black;
 }
 
 .containers {
