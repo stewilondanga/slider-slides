@@ -101,12 +101,12 @@
   border: solid 2px transparent;
 }
 
-/*#slide-1:focus ~ .slide-nav [href="#slide-1"],
-#slide-1:focus-within ~ .slide-nav [href="#slide-1"] {
+#slide-1:focus~.slide-nav [href="#slide-1"],
+#slide-1:focus-within~.slide-nav [href="#slide-1"] {
   border-color: black;
 }
 
-#slide-2:focus ~ .slide-nav [href="#slide-2"],
+/*#slide-2:focus ~ .slide-nav [href="#slide-2"],
 #slide-2:focus-within ~ .slide-nav [href="#slide-2"] {
   border-color: black;
 }
