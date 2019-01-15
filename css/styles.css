@@ -86,7 +86,7 @@
   z-index: 12;
 }
 
-/*.slide-nav a {
+.slide-nav a {
   display: inline-block;
   width: 2em;
   height: 2em;
@@ -101,7 +101,7 @@
   border: solid 2px transparent;
 }
 
-#slide-1:focus ~ .slide-nav [href="#slide-1"],
+/*#slide-1:focus ~ .slide-nav [href="#slide-1"],
 #slide-1:focus-within ~ .slide-nav [href="#slide-1"] {
   border-color: black;
 }
