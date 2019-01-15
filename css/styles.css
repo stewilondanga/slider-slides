@@ -77,7 +77,7 @@
   overflow: hidden;
 }
 
-/*.slide-nav {
+.slide-nav {
   position: absolute;
   bottom: 0.5em;
   left: 0;
@@ -85,7 +85,8 @@
   text-align: center;
   z-index: 12;
 }
-.slide-nav a {
+
+/*.slide-nav a {
   display: inline-block;
   width: 2em;
   height: 2em;
