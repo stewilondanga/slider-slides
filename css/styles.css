@@ -72,12 +72,12 @@
   background: hsl(calc(360deg * (var(--i) / var(--total))), 60%, 60%);
 }
 
-/*.slider {
+.slider {
   position: relative;
   overflow: hidden;
 }
 
-.slide-nav {
+/*.slide-nav {
   position: absolute;
   bottom: 0.5em;
   left: 0;
