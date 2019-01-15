@@ -62,17 +62,17 @@
 
 /* ---------------------------------- */
 /* Stylistic Choices */
-/*.slide {
+.slide {
   height: 60vw;
   max-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background: red;
-  background: hsl(calc(360deg * ( var(--i) / var(--total) ) ), 60%, 60%);
+  background: hsl(calc(360deg * (var(--i) / var(--total))), 60%, 60%);
 }
 
-.slider {
+/*.slider {
   position: relative;
   overflow: hidden;
 }
